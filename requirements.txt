@@ -1,4 +1,4 @@
-streamlit
+streamlit==1.35.0
 langchain==0.2.7
 langchain_google_genai==1.0.10
 faiss-cpu==1.8.0
