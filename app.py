@@ -25,6 +25,7 @@ def init_page():
 
 def main():
     embeddings = GoogleGenerativeAIEmbeddings(
+        google_api_key=userdata.get('GEMINI_API_KEY'),
         model="models/embedding-001"
     )
     db = load_db(embeddings)
